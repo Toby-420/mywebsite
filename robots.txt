@@ -1,0 +1,5 @@
+# robots.txt for toby valentine's personal site
+
+User-agent: *
+Disallow: *
+Allow: index.htm

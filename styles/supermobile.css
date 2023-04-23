@@ -1,0 +1,31 @@
+@charset "utf-8";
+h1,h2,h3{color:#6cc;font-family:Idealsans,sans-serif;text-align:center}
+p,a{color:#f66;font-family:Idealsans,sans-serif}
+th{font-size:larger;color:#6cc;font-family:Idealsans,sans-serif;display:block}
+table{float:left}
+li{color:#B00303;font-family:Idealsans,sans-serif}
+label{color:#6ff;font-family:Idealsans,sans-serif}
+body{background-color:#111;/*cursor:url('../img/cursor.cur')*/,auto}
+span{border-radius:15px}
+a:link{color:#9999ff;background-color:transparent;text-decoration:underline}
+a:visited{color:yellow;background-color:transparent;text-decoration:underline}
+a:hover{color:#00FFF0;background-color:transparent;text-decoration:underline}
+a:active{color:#cc99ff;background-color:transparent;text-decoration:underline}
+a.button{border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;cursor:pointer}
+.padding{padding:10px}
+a.button1{background-color:#630;border-radius:0px 15px 15px 15px}
+a.button2{background-color:#630CA1;border-radius:0px 15px 15px 15px}
+a.buttonstart{background-color:#630;border-radius:15px 0px 0px 15px;display:inline-block;margin:0}
+a.buttonmid1{background-color:#630;border-radius:0px 0px 0px 0px;display:inline-block;margin:0}
+a.buttonmid2{background-color:#630CA1;border-radius:0px 0px 0px 0px;display:inline-block;margin:0}
+a.buttonend1{background-color:#630;border-radius:0px 15px 15px 0px;display:inline-block;margin:0}
+a.buttonend2{background-color:#630CA1;border-radius:0px 15px 15px 0px;display:inline-block;margin:0}
+input[type=text],input[type=email],texarea[name=message],select{width:150px;padding:10px;margin:8px 0;display:inline-block;border:1px solid #f66;border-radius:0px 15px 15px 15px;box-sizing:border-box}
+.video{border:3px solid}
+#div{width:80%;margin:auto;text-align:center}
+pre{color:white;font-family:monospace;background-color:black;padding:1rem;display:inline-block;margin-left:4%}
+img{display:block;margin:auto;text-align:center}
+#toggleButton{background-color:#630;border-radius:15px;text-align:left}
+#side{text-align:left}
+@font-face{font-family:Idealsans;font-style:normal;font-weight:400;src:url(IdealSansSSm-Light-Pro_Web.woff2) format("woff2")}
+#vid{border:3px solid #0000ff}
