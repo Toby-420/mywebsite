@@ -1,6 +1,7 @@
 const apiUrl = 'https://api.github.com/repos/Toby-420/text-adventure/releases/latest';
 const accessToken = process.env.GITHUB_TOKEN;
 
+alert(accessToken);
 fetch(apiUrl, {
   headers: {
     Authorization: `token ${accessToken}`,
