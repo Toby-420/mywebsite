@@ -1,25 +1,18 @@
-      const token = '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';
-      const url = `https://api.github.com/repos/Toby-420/text-adventure/releases/latest`;
+// Specify the URL of the JSON data
+const url = "https://api.github.com/repos/Toby-420/text-adventure/releases/latest";
 
-      fetch(url, {
-          headers: {
-              Authorization: `token ${token}`
-          }
-      })
-      .then(response => {
-          if (!response.ok) {
-              throw new Error(`Failed to fetch release data: ${response.statusText}`);
-          }
-          return response.json();
-      })
-      .then(data => {
-          if (!data.body) {
-              throw new Error('Release notes not found.');
-          }
-          const releaseDescription = data.body;
-          document.getElementById('release-description').innerText = releaseDescription;
-      })
-      .catch(error => {
-          console.error(error);
-          document.getElementById('release-description').innerText = 'Failed to fetch release notes.';
-      });
+
+// Use the fetch() method to retrieve the data from the URL
+fetch(url)
+  .then(response => response.json()) // Convert the response to a JavaScript object
+  .then(data => {
+    // Retrieve the "body" field of the JSON data
+    const bodyData = data.body;
+
+    // Display the "body" field in the "release-description" div on your website
+    const releaseDescription = document.getElementById("release-description");
+    releaseDescription.innerHTML = bodyData;
+  })
+  .catch(error => {
+    console.error(error); // Log any errors to the console
+  });
