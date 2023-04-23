@@ -1,4 +1,4 @@
-const token = 'process.env.GITHUB_TOKEN;
+const token = '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';
 const url = `https://api.github.com/repos/Toby-420/text-adventure/releases/latest`;
 
 fetch(url, {
