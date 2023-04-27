@@ -6,7 +6,7 @@ fetch(url)
     const bodyData = data.body;
 
     // Add newline or <br> after fullstop and space, and before capital letter
-    const formattedBodyData = bodyData.replace(/\.\\n +([A-Z])/g, '.<br>$1');
+    const formattedBodyData = bodyData.replace(/\. +([A-Z])/g, '.<br>$1');
 
     const releaseDescription = document.getElementById("release-description");
     releaseDescription.innerHTML = formattedBodyData;
