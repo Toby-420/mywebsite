@@ -1,6 +1,6 @@
 @charset "utf-8";
 h1,h2,h3{color:#6cc;font-family:Idealsans,sans-serif;text-align:center}
-p,a{color:#f66;font-family:Idealsans,sans-serif}
+p,a,noscript{color:#f66;font-family:Idealsans,sans-serif}
 th{font-size:larger;color:#6cc;font-family:Idealsans,sans-serif;display:block}
 table{float:left}
 li{color:#B00303;font-family:Idealsans,sans-serif}
