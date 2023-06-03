@@ -5,7 +5,7 @@ th{font-size:larger;color:#6cc;font-family:Idealsans,sans-serif;display:block}
 table{float:left}
 li{color:#B00303;font-family:Idealsans,sans-serif}
 label{color:#6ff;font-family:Idealsans,sans-serif}
-body{background-color:#111;/*cursor:url('../img/cursor.cur')*/,auto}
+body{height:100%;background-color:#111;}
 span{border-radius:15px}
 .grid-container{display:grid;grid-template-columns:14% 85%;grid-template-rows:repeat(3,100px);grid-gap:10px}
 *{box-sizing:border-box}
