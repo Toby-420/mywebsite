@@ -33,3 +33,6 @@ img{display:block;margin:auto;text-align:center}
 #vid{border:3px solid #0000ff}
 .column{flex:1}
 .grid-container{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,100px)}
+#side {
+text-align: left;
+}
