@@ -4,6 +4,8 @@ p,a,noscript{color:#f66;font-family:Idealsans,sans-serif}
 th{font-size:larger;color:#6cc;font-family:Idealsans,sans-serif;display:block}
 table{float:left}
 li{color:#B00303;font-family:Idealsans,sans-serif}
+
+#release-description li {color:#f66}
 label{color:#6ff;font-family:Idealsans,sans-serif}
 body{height:100%;background-color:#111;}
 span{border-radius:15px}

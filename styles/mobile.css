@@ -5,9 +5,10 @@ th{font-size:larger;color:#6cc;font-family:Idealsans,sans-serif;display:block}
 table{float:left}
 li{color:#B00303;font-family:Idealsans,sans-serif}
 label{color:#6ff;font-family:Idealsans,sans-serif}
+#release-description li {color:#f66}
 body{height:100%;background-color:#111;}
 span{border-radius:15px}
-.grid-container{display:grid;grid-template-columns:14% 85%;grid-template-rows:repeat(3,100px);grid-gap:10px}
+/* .grid-container{display:grid;grid-template-columns:14% 85%;grid-template-rows:repeat(3,100px);grid-gap:10px} */
 *{box-sizing:border-box}
 a:link{color:#9999ff;background-color:transparent;text-decoration:underline}
 a:visited{color:yellow;background-color:transparent;text-decoration:underline}
@@ -31,8 +32,8 @@ img{display:block;margin:auto;text-align:center}
 #side{text-align:left}
 @font-face{font-family:Idealsans;font-style:normal;font-weight:400;src:url(IdealSansSSm-Light-Pro_Web.woff2) format("woff2")}
 #vid{border:3px solid #0000ff}
-.column{flex:1}
-.grid-container{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,100px)}
+/* .column{flex:1} */
+/* .grid-container{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,100px)} */
 #side {
 text-align: left;
 }
